@@ -13,3 +13,4 @@ Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("email
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("password").SetSecure "5bd0259c441abaf7e9953c01" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("password")_;_script infofile_;_ZIP::ssf13.xml_;_
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("confirmPassword").SetSecure "5bd0259fdf2e107e66e06765" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("confirmPassword")_;_script infofile_;_ZIP::ssf14.xml_;_
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Image("register").Click 41,11 @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Image("register")_;_script infofile_;_ZIP::ssf15.xml_;_
+wait (5)
