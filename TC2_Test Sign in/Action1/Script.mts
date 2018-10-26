@@ -1,4 +1,4 @@
-﻿'--đăng nhập
+﻿'--đăng nhập tài khoản vừa tạo
 wait (3)
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Link("sign-in").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Link("sign-in")_;_script infofile_;_ZIP::ssf5.xml_;_
 Browser("Welcome: Mercury Tours").Page("Sign-on: Mercury Tours").WebEdit("userName").Set "mai" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Sign-on: Mercury Tours").WebEdit("userName")_;_script infofile_;_ZIP::ssf6.xml_;_

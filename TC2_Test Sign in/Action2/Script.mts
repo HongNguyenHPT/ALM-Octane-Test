@@ -1,4 +1,5 @@
-﻿Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").Link("REGISTER").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").Link("REGISTER")_;_script infofile_;_ZIP::ssf1.xml_;_
+﻿'đăng kí mới tài khoản
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").Link("REGISTER").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours").Link("REGISTER")_;_script infofile_;_ZIP::ssf1.xml_;_
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("firstName").Set "mai" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("firstName")_;_script infofile_;_ZIP::ssf2.xml_;_
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("lastName").Set "mai" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("lastName")_;_script infofile_;_ZIP::ssf3.xml_;_
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("phone").Set "9867865" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("phone")_;_script infofile_;_ZIP::ssf4.xml_;_
