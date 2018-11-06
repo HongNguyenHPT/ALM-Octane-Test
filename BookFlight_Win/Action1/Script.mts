@@ -22,7 +22,7 @@ WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("ORDER").Click @@ hightlig
 wait (5)
 WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 completed").Check CheckPoint("Order 87 completed") @@ hightlight id_;_1916299656_;_script infofile_;_ZIP::ssf20.xml_;_
 
-'---delete book order
+'---delete book flight
 WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("WpfButton").Click @@ hightlight id_;_2074951560_;_script infofile_;_ZIP::ssf21.xml_;_
 WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Notification").WinButton("Yes").Click @@ hightlight id_;_134542_;_script infofile_;_ZIP::ssf22.xml_;_
 WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 deleted").Check CheckPoint("Order 87 deleted") @@ hightlight id_;_1916300432_;_script infofile_;_ZIP::ssf23.xml_;_

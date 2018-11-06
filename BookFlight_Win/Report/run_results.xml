@@ -6,10 +6,10 @@
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "C:\Program Files (x86)\HP\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe",1</Name>
-    <StartTime>2018-11-05 14:32:19</StartTime>
+    <StartTime>2018-11-06 15:43:57</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>4f221167add148be867385caa669c623</IconKey>
+      <IconKey>b1fbc676bafd40c5bab966968ff95748</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -19,7 +19,7 @@
 <Data>
     <Name>agentName.Set</Name>
     <Description>"john"</Description>
-    <StartTime>2018-11-05 14:32:27</StartTime>
+    <StartTime>2018-11-06 15:44:05</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -43,17 +43,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9c65d01e446c450ba6180e7a0b7436b9</IconKey>
+      <IconKey>04315ccef9764d60bf822c34487cdb0f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\f97c7414-9fb8-49d0-8f46-8104bed54a24.jpeg" highlight="131,233,404,42" />
+    <Snapshot reference="Resources\Snapshots\a585e26c-6eba-414a-bb4f-08ea9bba8dd7.jpeg" highlight="131,233,404,42" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>password.SetSecure</Name>
     <Description>"5bdfedd5b2d17799db82"</Description>
-    <StartTime>2018-11-05 14:32:28</StartTime>
+    <StartTime>2018-11-06 15:44:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -77,17 +77,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9c65d01e446c450ba6180e7a0b7436b9</IconKey>
+      <IconKey>04315ccef9764d60bf822c34487cdb0f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\5d9b5b97-80e3-42d4-88c0-3f33b6df50cf.jpeg" highlight="131,296,404,42" />
+    <Snapshot reference="Resources\Snapshots\3891b1bb-ad9a-48de-bd8a-727bf138bebd.jpeg" highlight="131,296,404,42" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>OK.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:28</StartTime>
+    <StartTime>2018-11-06 15:44:07</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -114,17 +114,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>15a1b81ba45f4699aa1c21e1e3bb5f51</IconKey>
+      <IconKey>356e44df41e7482fad785580cebce95e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\b71cc977-5d2e-448c-8060-e7bffe0e02d4.jpeg" highlight="131,359,73,36" />
+    <Snapshot reference="Resources\Snapshots\cae601c5-a91b-4f4f-9c36-a960534a34ca.jpeg" highlight="131,359,73,36" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>fromCity.Select</Name>
     <Description>"Paris"</Description>
-    <StartTime>2018-11-05 14:32:29</StartTime>
+    <StartTime>2018-11-06 15:44:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -148,17 +148,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5796733d7ce447b0b96afca8afabef4a</IconKey>
+      <IconKey>ea7c3cd4c0414fca862c763ebc1bbfbe</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\6def3bed-7eed-4714-bf9f-b1656eadb4da.jpeg" highlight="28,97,260,34" />
+    <Snapshot reference="Resources\Snapshots\f2f1e4e4-2431-491f-882d-59bd49041bb5.jpeg" highlight="28,97,260,34" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>toCity.Select</Name>
     <Description>"Sydney"</Description>
-    <StartTime>2018-11-05 14:32:30</StartTime>
+    <StartTime>2018-11-06 15:44:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -182,17 +182,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5796733d7ce447b0b96afca8afabef4a</IconKey>
+      <IconKey>ea7c3cd4c0414fca862c763ebc1bbfbe</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\ac0475fd-f48f-483a-884f-0deee3eb07cc.jpeg" highlight="28,146,260,34" />
+    <Snapshot reference="Resources\Snapshots\66a46c66-de3a-4e91-832c-2fde69b22c68.jpeg" highlight="28,146,260,34" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>WpfImage.Click</Name>
     <Description>8, 10</Description>
-    <StartTime>2018-11-05 14:32:30</StartTime>
+    <StartTime>2018-11-06 15:44:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -228,17 +228,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>0f8781c849e04de98bcac109d3cec358</IconKey>
+      <IconKey>0a1b0b4730634f5ca7209aee60b74420</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\2b503149-4967-468a-ad9b-d322183b4588.jpeg" highlight="263,203,18,18" />
+    <Snapshot reference="Resources\Snapshots\6ecbd32d-e1e7-4e80-ae08-140afef0f0e2.jpeg" highlight="263,203,18,18" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>Su.SetDate</Name>
     <Description>"8-Dec-2018"</Description>
-    <StartTime>2018-11-05 14:32:31</StartTime>
+    <StartTime>2018-11-06 15:44:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -262,17 +262,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5f27720b86214b7bb2fe120794484dd4</IconKey>
+      <IconKey>0c25bfc18fff4da8bf0d1e2a3a019b4b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\3946f998-2e6f-46b2-9695-2c2005450b9e.jpeg" highlight="39,223,275,170" />
+    <Snapshot reference="Resources\Snapshots\9f6465b6-7d28-4bac-af46-a742bbeea74c.jpeg" highlight="39,223,275,170" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>Class.Select</Name>
     <Description>"Business"</Description>
-    <StartTime>2018-11-05 14:32:32</StartTime>
+    <StartTime>2018-11-06 15:44:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -300,17 +300,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5796733d7ce447b0b96afca8afabef4a</IconKey>
+      <IconKey>ea7c3cd4c0414fca862c763ebc1bbfbe</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\2fccaa0d-c8a8-41da-968c-6a49b34c86c2.jpeg" highlight="28,294,160,34" />
+    <Snapshot reference="Resources\Snapshots\97b9f9eb-98ee-40c8-99b0-eeda7ad94992.jpeg" highlight="28,294,160,34" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>numOfTickets.Select</Name>
     <Description>"2"</Description>
-    <StartTime>2018-11-05 14:32:32</StartTime>
+    <StartTime>2018-11-06 15:44:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -334,17 +334,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>5796733d7ce447b0b96afca8afabef4a</IconKey>
+      <IconKey>ea7c3cd4c0414fca862c763ebc1bbfbe</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\988f931f-e3e7-4781-9b9d-341cfe31fff0.jpeg" highlight="208,294,80,34" />
+    <Snapshot reference="Resources\Snapshots\05a4d80d-9719-4e1e-aeef-8b22b855d30a.jpeg" highlight="208,294,80,34" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>FIND FLIGHTS.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:33</StartTime>
+    <StartTime>2018-11-06 15:44:12</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -371,17 +371,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>15a1b81ba45f4699aa1c21e1e3bb5f51</IconKey>
+      <IconKey>356e44df41e7482fad785580cebce95e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\61009d2c-6bec-42f8-b3c0-a07579f00822.jpeg" />
+    <Snapshot reference="Resources\Snapshots\30263c9e-ca53-4bae-90e4-af59f5b6295e.jpeg" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>flightsDataGrid.SelectCell</Name>
     <Description>1, 3</Description>
-    <StartTime>2018-11-05 14:32:33</StartTime>
+    <StartTime>2018-11-06 15:44:13</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -405,17 +405,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>dd8c1d184ccf45deadb500b2f40a5301</IconKey>
+      <IconKey>4d769aabf5884d018f71e1257593eaec</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\9a50fed7-17d8-4f63-8d3c-08600d303d97.jpeg" highlight="8,119,960,386" />
+    <Snapshot reference="Resources\Snapshots\b193f601-9975-4efa-8328-d51f42691ad4.jpeg" highlight="8,119,960,386" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>SELECT FLIGHT.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:34</StartTime>
+    <StartTime>2018-11-06 15:44:13</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -442,17 +442,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>15a1b81ba45f4699aa1c21e1e3bb5f51</IconKey>
+      <IconKey>356e44df41e7482fad785580cebce95e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\245dbb26-b4c8-4cdd-8afb-d089a77e2b94.jpeg" />
+    <Snapshot reference="Resources\Snapshots\5f387d0e-725b-4960-9bc6-d0f32e508fdd.jpeg" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>passengerName.Set</Name>
     <Description>"Henrry"</Description>
-    <StartTime>2018-11-05 14:32:35</StartTime>
+    <StartTime>2018-11-06 15:44:14</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -476,17 +476,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>9c65d01e446c450ba6180e7a0b7436b9</IconKey>
+      <IconKey>04315ccef9764d60bf822c34487cdb0f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\9dc06fe4-6c93-492f-a395-6980a9547545.jpeg" highlight="28,346,280,34" />
+    <Snapshot reference="Resources\Snapshots\3d01c969-0d66-4724-a201-47c630f13798.jpeg" highlight="28,346,280,34" />
   </Data>
 </ReportNode>
 <ReportNode type="Step">
 <Data>
     <Name>ORDER.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:35</StartTime>
+    <StartTime>2018-11-06 15:44:14</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -513,18 +513,18 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>15a1b81ba45f4699aa1c21e1e3bb5f51</IconKey>
+      <IconKey>356e44df41e7482fad785580cebce95e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\a3e2eed9-f3b4-42e5-b51a-14da1a86bfce.jpeg" highlight="196,514,112,36" />
+    <Snapshot reference="Resources\Snapshots\d55b7a6d-00ee-4dff-bef2-2136bf947104.jpeg" highlight="196,514,112,36" />
   </Data>
 </ReportNode>
 <ReportNode type="Context">
 <ReportNode type="Checkpoint">
 <Data>
     <Name>"Order 87 completed"</Name>
-    <Description>Text Checkpoint: captured "Order 90 completed", expected "Order 87 completed" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
-    <StartTime>2018-11-05 14:32:52</StartTime>
+    <Description>Text Checkpoint: captured "Order 93 completed", expected "Order 87 completed" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2018-11-06 15:44:30</StartTime>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -539,7 +539,7 @@
             <Name><![CDATA[Order 87 completed]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[Text Checkpoint: captured "Order 90 completed", expected "Order 87 completed" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+        <OperationData><![CDATA[Text Checkpoint: captured "Order 93 completed", expected "Order 87 completed" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[devname]]></Name>
@@ -549,7 +549,7 @@
       </TestObject>
       <Checkpoint>
         <Type>Text Checkpoint</Type>
-        <Captured>"Order 90 completed"</Captured>
+        <Captured>"Order 93 completed"</Captured>
         <Expected>"Order 87 completed"</Expected>
         <Regex>False</Regex>
         <MatchCase>False</MatchCase>
@@ -558,16 +558,16 @@
         <MaxTimeout>10</MaxTimeout>
         <UsedTimeout>10</UsedTimeout>
       </Checkpoint>
-      <IconKey>8d40f04a807149258da31e3723d3f432</IconKey>
+      <IconKey>c5fb45cf62994fa1a89c7afd87076384</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\1da2e77b-37c6-45f1-8420-c009652bac5f.jpeg" highlight="568,287,188,28" />
+    <Snapshot reference="Resources\Snapshots\db24de2b-3ac9-4de7-a9e3-62911e96cd18.jpeg" highlight="568,287,188,28" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Order 87 completed</Name>
     <Description>WpfObject</Description>
-    <StartTime>2018-11-05 14:32:52</StartTime>
+    <StartTime>2018-11-06 15:44:30</StartTime>
     <Duration>1</Duration>
     <Result>Failed</Result>
     <Extension>
@@ -591,7 +591,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8d40f04a807149258da31e3723d3f432</IconKey>
+      <IconKey>c5fb45cf62994fa1a89c7afd87076384</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -600,7 +600,7 @@
 <Data>
     <Name>WpfButton.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:53</StartTime>
+    <StartTime>2018-11-06 15:44:31</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -643,10 +643,10 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>15a1b81ba45f4699aa1c21e1e3bb5f51</IconKey>
+      <IconKey>356e44df41e7482fad785580cebce95e</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\46b873a9-5c71-4b77-8f53-6cd62b43d425.jpeg" highlight="252,45,18,18" />
+    <Snapshot reference="Resources\Snapshots\6758ad2c-8228-4790-849b-34eedab4da9c.jpeg" highlight="252,45,18,18" />
   </Data>
 </ReportNode>
 <ReportNode type="Context">
@@ -654,7 +654,7 @@
 <Data>
     <Name>Yes.Click</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:53</StartTime>
+    <StartTime>2018-11-06 15:44:32</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -685,17 +685,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>7c46fe8a5e024c62be3190da91a8f20e</IconKey>
+      <IconKey>b8a6ee2237734279aafd2b9329f66388</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\0b69c03f-daea-40f5-a934-6c6afa3265ac.jpeg" highlight="481,359,75,23" />
+    <Snapshot reference="Resources\Snapshots\3851e145-844d-4781-96cc-c0672236f337.jpeg" highlight="481,359,75,23" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Notification</Name>
     <Description>Dialog</Description>
-    <StartTime>2018-11-05 14:32:53</StartTime>
-    <Duration>14</Duration>
+    <StartTime>2018-11-06 15:44:32</StartTime>
+    <Duration>13</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -730,7 +730,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>fccab09a874c4cce90fe8e90b1a1045a</IconKey>
+      <IconKey>bc54b2fd1dfc408a9d20c4c700bdb6dc</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -739,8 +739,8 @@
 <ReportNode type="Checkpoint">
 <Data>
     <Name>"Order 87 deleted"</Name>
-    <Description>Text Checkpoint: captured "Order 90 deleted", expected "Order 87 deleted" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
-    <StartTime>2018-11-05 14:33:07</StartTime>
+    <Description>Text Checkpoint: captured "Order 93 deleted", expected "Order 87 deleted" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2018-11-06 15:44:45</StartTime>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -755,7 +755,7 @@
             <Name><![CDATA[Order 87 deleted]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[Text Checkpoint: captured "Order 90 deleted", expected "Order 87 deleted" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+        <OperationData><![CDATA[Text Checkpoint: captured "Order 93 deleted", expected "Order 87 deleted" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[devname]]></Name>
@@ -765,7 +765,7 @@
       </TestObject>
       <Checkpoint>
         <Type>Text Checkpoint</Type>
-        <Captured>"Order 90 deleted"</Captured>
+        <Captured>"Order 93 deleted"</Captured>
         <Expected>"Order 87 deleted"</Expected>
         <Regex>False</Regex>
         <MatchCase>False</MatchCase>
@@ -774,16 +774,16 @@
         <MaxTimeout>10</MaxTimeout>
         <UsedTimeout>10</UsedTimeout>
       </Checkpoint>
-      <IconKey>8d40f04a807149258da31e3723d3f432</IconKey>
+      <IconKey>c5fb45cf62994fa1a89c7afd87076384</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\1a07105e-c342-4ade-a6b1-9a1d8838e838.jpeg" highlight="558,287,159,28" />
+    <Snapshot reference="Resources\Snapshots\b416d226-521a-4a4d-aaba-68731ea402ae.jpeg" highlight="558,287,159,28" />
   </Data>
 </ReportNode>
 <Data>
     <Name>Order 87 deleted</Name>
     <Description>WpfObject</Description>
-    <StartTime>2018-11-05 14:33:07</StartTime>
+    <StartTime>2018-11-06 15:44:45</StartTime>
     <Duration>0</Duration>
     <Result>Failed</Result>
     <Extension>
@@ -807,7 +807,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8d40f04a807149258da31e3723d3f432</IconKey>
+      <IconKey>c5fb45cf62994fa1a89c7afd87076384</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -816,7 +816,7 @@
 <Data>
     <Name>HPE MyFlight Sample Applicatio.Close</Name>
     <Description />
-    <StartTime>2018-11-05 14:33:07</StartTime>
+    <StartTime>2018-11-06 15:44:45</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -843,17 +843,17 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>ea17bbf31f014d019615d5e697d06092</IconKey>
+      <IconKey>1681ed161c5d412aac7d6c8c6e58c417</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
-    <Snapshot reference="Resources\Snapshots\6d6841d4-4c5e-4a95-a7ab-30021ff273e7.jpeg" />
+    <Snapshot reference="Resources\Snapshots\a1371f47-bdf2-48c7-a8f6-cdb19e7c948e.jpeg" />
   </Data>
 </ReportNode>
 <Data>
     <Name>HPE MyFlight Sample Applicatio</Name>
     <Description>WpfWindow</Description>
-    <StartTime>2018-11-05 14:32:27</StartTime>
-    <Duration>56</Duration>
+    <StartTime>2018-11-06 15:44:05</StartTime>
+    <Duration>62</Duration>
     <Result>Failed</Result>
     <Extension>
       <TestObject>
@@ -880,7 +880,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>ea17bbf31f014d019615d5e697d06092</IconKey>
+      <IconKey>1681ed161c5d412aac7d6c8c6e58c417</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -888,12 +888,12 @@
 <Data>
     <Name>Action1</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:19</StartTime>
-    <Duration>64</Duration>
+    <StartTime>2018-11-06 15:43:56</StartTime>
+    <Duration>71</Duration>
     <Result>Failed</Result>
     <InputParameters />
     <Extension>
-      <IconKey>cb5b6ee74c33481694c7ba02c8d2b36b</IconKey>
+      <IconKey>776de20cdd6247c281ca42ebc034edbb</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -901,11 +901,11 @@
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2018-11-05 14:32:19</StartTime>
-    <Duration>64</Duration>
+    <StartTime>2018-11-06 15:43:56</StartTime>
+    <Duration>71</Duration>
     <Result>Failed</Result>
     <Extension>
-      <IconKey>b7c39e14de254da4ae7b143e32cfb58e</IconKey>
+      <IconKey>e9dd0b648e574a5dba232689923d9cda</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -917,12 +917,12 @@
     <ToolName>HPE Unified Functional Testing</ToolName>
     <ToolVersion>14.0</ToolVersion>
     <Description />
-    <StartTime>2018-11-05 14:32:18</StartTime>
-    <Duration>65</Duration>
+    <StartTime>2018-11-06 15:43:56</StartTime>
+    <Duration>71</Duration>
     <Result>Failed</Result>
     <InputParameters />
     <Extension>
-      <IconKey>27a99701106948f98133757f3fa95633</IconKey>
+      <IconKey>54679f90969c443ea94021e9355bab93</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -943,7 +943,7 @@
 </ReportNode>
 <GeneralInfo>
     <ResultName>BookFlight_Win</ResultName>
-    <RunStartTime>2018-11-05 14:32:18</RunStartTime>
+    <RunStartTime>2018-11-06 15:43:56</RunStartTime>
     <Timezone>+07:00:00</Timezone>
     <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
     <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
