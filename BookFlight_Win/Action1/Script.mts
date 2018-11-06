@@ -20,12 +20,45 @@ WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("ORDER").Click @@ hightlig
 
 '---check order
 wait (5)
-WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 completed").Check CheckPoint("Order 87 completed") @@ hightlight id_;_1916299656_;_script infofile_;_ZIP::ssf20.xml_;_
+order = (WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 completed").GetROProperty("text"))
+Environment("checkDelete") = Replace(order, "completed", "deleted")
+MsgBox Environment("checkDelete")
 
 '---delete book flight
 WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("WpfButton").Click @@ hightlight id_;_2074951560_;_script infofile_;_ZIP::ssf21.xml_;_
-WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Notification").WinButton("Yes").Click @@ hightlight id_;_134542_;_script infofile_;_ZIP::ssf22.xml_;_
-WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 deleted").Check CheckPoint("Order 87 deleted") @@ hightlight id_;_1916300432_;_script infofile_;_ZIP::ssf23.xml_;_
+
+'---check thông báo
+
+WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Notification").Static("Are you sure you want").Check CheckPoint("Are you sure you want to delete this order?") @@ hightlight id_;_134214_;_script infofile_;_ZIP::ssf25.xml_;_
+If (WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Notification").Exist) Then
+	Reporter.ReportEvent micPass, "Thông báo xóa chuyến bay", "Pass"
+	else
+	Reporter.ReportEvent micFail, "Thông báo xóa chuyến bay", "Fail"
+End If
+	
+'-----
+WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Notification").WinButton("Yes").Click @@ hightlight id_;_199752_;_script infofile_;_ZIP::ssf26.xml_;_
+
+'---check thông báo xóa thành công
+WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order 87 deleted").Check CheckPoint("Order 97 deleted") @@ hightlight id_;_2010082632_;_script infofile_;_ZIP::ssf27.xml_;_
+
+'---tìm kiếm lại order flight đã xóa
+
+
+WpfWindow("HPE MyFlight Sample Applicatio").WpfTabStrip("WpfTabStrip").Select "SEARCH ORDER" @@ hightlight id_;_2126464392_;_script infofile_;_ZIP::ssf28.xml_;_
+WpfWindow("HPE MyFlight Sample Applicatio").WpfRadioButton("byNumberRadio").Set @@ hightlight id_;_2132122440_;_script infofile_;_ZIP::ssf29.xml_;_
+WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("byNumberWatermark").Set "99" @@ hightlight id_;_2126465832_;_script infofile_;_ZIP::ssf30.xml_;_
+WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("SEARCH").Click @@ hightlight id_;_2126465928_;_script infofile_;_ZIP::ssf31.xml_;_
+
+WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Error").Static("Order number does not").Check CheckPoint("Order number does not exist.") @@ hightlight id_;_1051830_;_script infofile_;_ZIP::ssf32.xml_;_
+If (WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Error").Exist) Then
+	Reporter.ReportEvent micPass, "Thông báo chuyến bay không tồn tại", "Pass"
+	else
+	Reporter.ReportEvent micFail, "Thông báo chuyến bay không tồn tại", "Fail"
+End If
+
+WpfWindow("HPE MyFlight Sample Applicatio").Dialog("Error").WinButton("OK").Click @@ hightlight id_;_2624720_;_script infofile_;_ZIP::ssf33.xml_;_
+
 
 '---thoát
 WpfWindow("HPE MyFlight Sample Applicatio").Close @@ hightlight id_;_265526_;_script infofile_;_ZIP::ssf24.xml_;_
