@@ -19,5 +19,26 @@ Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebList("count
 Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Image("profile_submit").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").Image("profile submit")_;_script infofile_;_ZIP::ssf15.xml_;_
 wait (5)
  @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours 2").Image("Sign-In")_;_script infofile_;_ZIP::ssf18.xml_;_
+ 
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours_2").WebEdit("userName").Set "a" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours 2").WebEdit("userName")_;_script infofile_;_ZIP::ssf20.xml_;_
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours_2").WebEdit("password").SetSecure "5be2a03453c3bf86" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours 2").WebEdit("password")_;_script infofile_;_ZIP::ssf21.xml_;_
+Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours_2").Image("Sign-In").Click 24,8 @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours 2").Image("Sign-In")_;_script infofile_;_ZIP::ssf22.xml_;_
+
+wait (80)
+Browser("Welcome: Mercury Tours").Page("Find a Flight: Mercury").Link("PROFILE").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Find a Flight: Mercury").Link("PROFILE")_;_script infofile_;_ZIP::ssf23.xml_;_
+
+'---check lại thông tin update
+If (Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("firstName").Check (CheckPoint("firstName"))) = True Then
+	Reporter.ReportEvent micPass, "Kiểm tra thông tin update firstName", "Pass"
+	else
+	Reporter.ReportEvent micFail, "Kiểm tra thông tin update firstName", "Fail"
+End If
+
+If (Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("lastName").Check (CheckPoint("lastName"))) = True Then
+	Reporter.ReportEvent micPass, "Kiểm tra thông tin update lastName", "Pass"
+	else
+	Reporter.ReportEvent micFail, "Kiểm tra thông tin update lastName", "Fail"
+End If
+ @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Register: Mercury Tours").WebEdit("lastName")_;_script infofile_;_ZIP::ssf25.xml_;_
 '--đóng
 Browser("Welcome: Mercury Tours").CloseAllTabs() @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Welcome: Mercury Tours 2").Image("Sign-In")_;_script infofile_;_ZIP::ssf19.xml_;_

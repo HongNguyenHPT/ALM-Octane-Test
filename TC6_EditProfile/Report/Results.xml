@@ -134,7 +134,7 @@
 <DName><![CDATA[TC6_EditProfile]]></DName>
 <Res><![CDATA[TC6_EditProfile]]></Res>
 <DT rID="T2">
-<NodeArgs eType="Table" icon="2" nRep="4" filter="False" >
+<NodeArgs eType="Table" icon="12" nRep="4" filter="False" >
 <Disp><![CDATA[Run-Time Data Table]]></Disp>
 <BtmPane vType="Table" >
 <Path><![CDATA[Default.xls]]></Path>
@@ -147,19 +147,19 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Welcome: Mercury Tours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:03]]></Time>
-<TimeTick>1540438983</TimeTick>
+<Time><![CDATA[10/25/2018 - 11:26:20]]></Time>
+<TimeTick>1540441580</TimeTick>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Welcome: Mercury Tours]]></Obj>
 <Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:03]]></Time>
-<TimeTick>1540438983</TimeTick>
+<Time><![CDATA[10/25/2018 - 11:26:20]]></Time>
+<TimeTick>1540441580</TimeTick>
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[userName.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:03]]></Time>
-<TimeTick>1540438983</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="12" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:26:20]]></Time>
+<TimeTick>1540441580</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="12" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[userName.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf2.xml]]></Path>
@@ -170,9 +170,9 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[password.SetSecure]]></Obj>
 <Details plainTxt="False" ><![CDATA["5bd137d620821b10"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:04]]></Time>
-<TimeTick>1540438984</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="15" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:26:20]]></Time>
+<TimeTick>1540441580</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="15" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[password.SetSecure]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf3.xml]]></Path>
@@ -183,9 +183,9 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Sign-In.Click]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:04]]></Time>
-<TimeTick>1540438984</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="18" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:26:20]]></Time>
+<TimeTick>1540441580</TimeTick>
+<NodeArgs eType="Replay" icon="18" nRep="18" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Sign-In.Click]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf4.xml]]></Path>
@@ -193,7 +193,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Context" icon="6" nRep="11" Source="Action1" SourceLine="-1" >
+<NodeArgs eType="Context" icon="16" nRep="11" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Welcome: Mercury Tours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf1.xml]]></Path>
@@ -204,14 +204,14 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Find a Flight: Mercury]]></Obj>
 <Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:54]]></Time>
-<TimeTick>1540439034</TimeTick>
+<Time><![CDATA[10/25/2018 - 11:26:26]]></Time>
+<TimeTick>1540441586</TimeTick>
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[PROFILE.Click]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10/25/2018 - 10:43:54]]></Time>
-<TimeTick>1540439034</TimeTick>
-<NodeArgs eType="Replay" icon="9" nRep="22" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:26:26]]></Time>
+<TimeTick>1540441586</TimeTick>
+<NodeArgs eType="Replay" icon="19" nRep="22" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[PROFILE.Click]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf6.xml]]></Path>
@@ -219,7 +219,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Context" icon="6" nRep="21" Source="Action1" SourceLine="-1" >
+<NodeArgs eType="Context" icon="16" nRep="21" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Find a Flight: Mercury]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf5.xml]]></Path>
@@ -230,14 +230,14 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Register: Mercury Tours]]></Obj>
 <Details plainTxt="False" ><![CDATA[Page]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
+<Time><![CDATA[10/25/2018 - 11:27:33]]></Time>
+<TimeTick>1540441653</TimeTick>
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[firstName.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["A"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="26" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:33]]></Time>
+<TimeTick>1540441653</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="26" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[firstName.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf8.xml]]></Path>
@@ -248,9 +248,9 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[lastName.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["A"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="29" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:33]]></Time>
+<TimeTick>1540441653</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="29" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[lastName.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf9.xml]]></Path>
@@ -261,9 +261,9 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[phone.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["1234"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="32" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:34]]></Time>
+<TimeTick>1540441654</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="32" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[phone.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf10.xml]]></Path>
@@ -274,9 +274,9 @@
 <Step rID="T16">
 <Obj plainTxt="False" ><![CDATA[email.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a@gmail.com"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="35" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:34]]></Time>
+<TimeTick>1540441654</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="35" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[email.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf11.xml]]></Path>
@@ -287,9 +287,9 @@
 <Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[address1.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:11]]></Time>
-<TimeTick>1540439051</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="38" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:34]]></Time>
+<TimeTick>1540441654</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="38" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[address1.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf12.xml]]></Path>
@@ -300,9 +300,9 @@
 <Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[address2.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:12]]></Time>
-<TimeTick>1540439052</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="41" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:34]]></Time>
+<TimeTick>1540441654</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="41" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[address2.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf13.xml]]></Path>
@@ -313,9 +313,9 @@
 <Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[city.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:12]]></Time>
-<TimeTick>1540439052</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="44" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:35]]></Time>
+<TimeTick>1540441655</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="44" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[city.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf14.xml]]></Path>
@@ -326,9 +326,9 @@
 <Step rID="T20">
 <Obj plainTxt="False" ><![CDATA[state.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["a"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:12]]></Time>
-<TimeTick>1540439052</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="47" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:35]]></Time>
+<TimeTick>1540441655</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="47" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[state.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf15.xml]]></Path>
@@ -339,9 +339,9 @@
 <Step rID="T21">
 <Obj plainTxt="False" ><![CDATA[postalCode.Set]]></Obj>
 <Details plainTxt="False" ><![CDATA["1223"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:12]]></Time>
-<TimeTick>1540439052</TimeTick>
-<NodeArgs eType="Replay" icon="7" nRep="50" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:35]]></Time>
+<TimeTick>1540441655</TimeTick>
+<NodeArgs eType="Replay" icon="17" nRep="50" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[postalCode.Set]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf16.xml]]></Path>
@@ -352,9 +352,9 @@
 <Step rID="T22">
 <Obj plainTxt="False" ><![CDATA[country.Select]]></Obj>
 <Details plainTxt="False" ><![CDATA["VIETNAM"]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:12]]></Time>
-<TimeTick>1540439052</TimeTick>
-<NodeArgs eType="Replay" icon="10" nRep="53" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:35]]></Time>
+<TimeTick>1540441655</TimeTick>
+<NodeArgs eType="Replay" icon="20" nRep="53" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[country.Select]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf17.xml]]></Path>
@@ -365,9 +365,9 @@
 <Step rID="T23">
 <Obj plainTxt="False" ><![CDATA[profile_submit.Click]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:13]]></Time>
-<TimeTick>1540439053</TimeTick>
-<NodeArgs eType="Replay" icon="8" nRep="56" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:36]]></Time>
+<TimeTick>1540441656</TimeTick>
+<NodeArgs eType="Replay" icon="18" nRep="56" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[profile_submit.Click]]></Disp>
 <BtmPane vType="Mercury.SSHWeb" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf18.xml]]></Path>
@@ -375,7 +375,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Context" icon="6" nRep="25" Source="Action1" SourceLine="-1" >
+<NodeArgs eType="Context" icon="16" nRep="25" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Register: Mercury Tours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[ZIP::Act1\Row0\ssf7.xml]]></Path>
@@ -386,27 +386,27 @@
 <Step rID="T24">
 <Obj plainTxt="False" ><![CDATA[Welcome: Mercury Tours.Close All Tabs]]></Obj>
 <Details plainTxt="False" ><![CDATA[]]></Details>
-<Time><![CDATA[10/25/2018 - 10:44:13]]></Time>
-<TimeTick>1540439053</TimeTick>
-<NodeArgs eType="Replay" icon="5" nRep="57" Source="Action1" SourceLine="-1" >
+<Time><![CDATA[10/25/2018 - 11:27:42]]></Time>
+<TimeTick>1540441662</TimeTick>
+<NodeArgs eType="Replay" icon="15" nRep="57" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Welcome: Mercury Tours.Close All Tabs]]></Disp>
 </NodeArgs>
 </Step>
-<NodeArgs eType="Context" icon="5" nRep="10" Source="Action1" SourceLine="-1" >
+<NodeArgs eType="Context" icon="15" nRep="10" Source="Action1" SourceLine="-1" >
 <Disp><![CDATA[Welcome: Mercury Tours]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="10/25/2018 - 10:43:03" eTime="10/25/2018 - 10:44:13" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="4" nRep="7" >
+<Summary sTime="10/25/2018 - 11:26:20" eTime="10/25/2018 - 11:27:42" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="14" nRep="7" >
 <Disp><![CDATA[Action1 Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="6" >
+<NodeArgs eType="StartIteration" icon="13" nRep="6" >
 <Disp><![CDATA[TC6_EditProfile Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Summary sTime="10/25/2018 - 10:43:00" eTime="10/25/2018 - 10:44:13" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="3" >
+<Summary sTime="10/25/2018 - 11:26:17" eTime="10/25/2018 - 11:27:42" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="11" nRep="3" >
 <Disp><![CDATA[Test TC6_EditProfile Summary]]></Disp>
 </NodeArgs>
 </Doc>
