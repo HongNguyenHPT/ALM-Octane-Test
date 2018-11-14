@@ -29,7 +29,7 @@ End If
 
 Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").WebRadioGroup("outFlight").Select "Unified Airlines$363$281$11:24" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").WebRadioGroup("outFlight")_;_script infofile_;_ZIP::ssf15.xml_;_
 Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").WebRadioGroup("inFlight").Select "Pangea Airlines$632$282$16:37" @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").WebRadioGroup("inFlight")_;_script infofile_;_ZIP::ssf16.xml_;_
-Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").Image("reserveFlights").Click  @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").Image("reserveFlights")_;_script infofile_;_ZIP::ssf17.xml_;_
+Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").Image("reserveFlights").Click @@ hightlight id_;_Browser("Welcome: Mercury Tours").Page("Select a Flight: Mercury").Image("reserveFlights")_;_script infofile_;_ZIP::ssf17.xml_;_
 
 '--thông tin hành khách
 '---check hiện màn hình Book a flight
