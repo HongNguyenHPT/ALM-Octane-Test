@@ -1,1 +1,0 @@
-﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'D:\\ALM Octane Test\\SearchFlight_Win',namePairs:[]}]};
